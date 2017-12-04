@@ -128,37 +128,10 @@ public class navmesh : Navigation
                 mmEvent.ButtonMask == (int)ButtonList.BUTTON_MASK_MIDDLE)
             {
                 Spatial camBase = GetNode("cambase") as Spatial;
-                camRot -= mmEvent.Relative.x * 0.005f;
+                camRot -= mmEvent.Relative.x * 0.005f; //Small changed from base demo to make rotation natural.
                 camBase.SetRotation(new Vector3(0, camRot, 0));
             }
         }
         base._Input(e);
     }
 }
-/*
-func _input(event):
-#	if (event extends InputEventMouseButton and event.button_index == BUTTON_LEFT and event.pressed):
-	if (event.is_class("InputEventMouseButton") and event.button_index == BUTTON_LEFT and event.pressed):
-		var from = get_node("cambase/Camera").project_ray_origin(event.position)
-		var to = from + get_node("cambase/Camera").project_ray_normal(event.position)*100
-		var p = get_closest_point_to_segment(from, to)
-		
-		begin = get_closest_point(get_node("robot_base").get_translation())
-		end = p
-
-		_update_path()
-	
-	if (event.is_class("InputEventMouseMotion")):
-		if (event.button_mask&(BUTTON_MASK_MIDDLE+BUTTON_MASK_RIGHT)):
-			camrot += event.relative.x*0.005
-			get_node("cambase").set_rotation(Vector3(0, camrot, 0))
-			print("camrot ", camrot)
-
-
-func _ready():
-	set_process_input(true)
-
-	m.flags_unshaded = true
-	m.flags_use_point_size = true
-	m.albedo_color = Color(1.0, 1.0, 1.0, 1.0)
-*/
