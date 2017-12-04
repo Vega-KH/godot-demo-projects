@@ -1,4 +1,9 @@
-# Godot demo projects
+# Godot demo projects in CSharp
+
+This branch contains edits from the original to change all code from 
+GDScript to CSharp to be used in the new 3.0 version.  This is a work
+in progress and projects will be changed as I get around to them.  Feel
+free to do conversion and send pull requests.
 
 Each folder containing a `project.godot` file is a demo project meant to
 be used with [Godot Engine](https://godotengine.org), the open source
