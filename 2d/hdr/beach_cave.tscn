@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://beach_cave.gd" type="Script" id=1]
+[ext_resource path="res://beach_cave.cs" type="Script" id=1]
 [ext_resource path="res://ocean_beach.png" type="Texture" id=2]
 [ext_resource path="res://ocean_cave.png" type="Texture" id=3]
 

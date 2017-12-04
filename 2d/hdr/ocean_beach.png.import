@@ -4,6 +4,10 @@ importer="texture"
 type="StreamTexture"
 path="res://.import/ocean_beach.png-b571ab5468cc775a520aaa47efbed607.stex"
 
+[deps]
+
+source_md5="fdfc24e858f07a1ac31c82fd8f357c3a"
+
 [params]
 
 compress/mode=0

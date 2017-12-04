@@ -4,6 +4,10 @@ importer="texture"
 type="StreamTexture"
 path="res://.import/ocean_cave.png-2a86f381e3092b4cb698b627d778e19b.stex"
 
+[deps]
+
+source_md5="acabe48e11037e9929f2d5aade9419a4"
+
 [params]
 
 compress/mode=0
