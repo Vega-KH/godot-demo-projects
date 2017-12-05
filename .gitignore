@@ -10,3 +10,7 @@ export_presets.cfg
 # System/tool-specific ignores
 .directory
 *~
+2d/hexagonal_map/troll.png.import
+*.import
+2d/hexagonal_map/troll.png.import
+*.import

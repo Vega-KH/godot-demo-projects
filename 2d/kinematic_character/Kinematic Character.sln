@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinematic Character", "Kinematic Character.csproj", "{CFB505BA-FFB5-48AE-8F5C-37F934A6BDBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	Debug|Any CPU = Debug|Any CPU
+	Release|Any CPU = Release|Any CPU
+	Tools|Any CPU = Tools|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFB505BA-FFB5-48AE-8F5C-37F934A6BDBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFB505BA-FFB5-48AE-8F5C-37F934A6BDBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFB505BA-FFB5-48AE-8F5C-37F934A6BDBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFB505BA-FFB5-48AE-8F5C-37F934A6BDBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFB505BA-FFB5-48AE-8F5C-37F934A6BDBB}.Tools|Any CPU.ActiveCfg = Tools|Any CPU
+		{CFB505BA-FFB5-48AE-8F5C-37F934A6BDBB}.Tools|Any CPU.Build.0 = Tools|Any CPU
+	EndGlobalSection
+EndGlobal
